@@ -52,7 +52,7 @@ Both CSV files should contain headers.
 ## Configuration and schemas
 
 To convert the CSV data to a GEXF document you will need to call the `csv2gexf.convert` function in this package.
-This function takes a configuration object as sole argument. This object contains settings such as where to save the resulting GEXF file. It also contains data schema that specify the nature of the data in the CSV tables. The format of the configuration object is documented below.
+This function takes a configuration object as sole argument. This object contains settings such as where to save the resulting GEXF file. It also contains schema that specify the nature of the columns in the CSV tables. These schema are arrays which contain one item for each column in the order of the columns. Each item is either a string or an object. The strings are used to mark the columns that contain primary node or edges properties such as id, label, source, target, type and weight. Some of these are required, others are optional. The objects are used for columns that contain arbitrary attributes or visualization settings. The format of the configuration object is [documented in the API Reference](#csv2gexfconfig--object).
 
 
 ## Example
@@ -69,6 +69,7 @@ $ npm run example
 
 - [csv for NodeJS](https://www.npmjs.com/package/csv)
 - [Gexf library for JavaScript](https://www.npmjs.com/package/gexf)
+- [jsdoc-to-markdown](https://www.npmjs.com/package/jsdoc-to-markdown)
 
 
 ## API Reference
