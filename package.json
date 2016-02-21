@@ -15,7 +15,7 @@
     "grunt-jsdoc": "^1.1.0",
     "jsdoc": "^3.4.0"
   },
-  "directories": {},
+  "directories": { "lib":"./lib", "example": "./example" },
   "engines": {
     "node": ">=5.6.0"
   },
@@ -25,7 +25,7 @@
     "graph"
   ],
   "licenses": "MIT",
-  "main": ".index.js",
+  "main": "./lib/index.js",
   "maintainers": [
     {
       "name": "Wouter Van den Broeck",
@@ -34,7 +34,10 @@
   ],
   "name": "csv2gexf",
   "private": true,
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wouter-vdb/csv2gexf.git"
+  },
   "scripts": {
     "install": "jsdoc index.js"
   },
