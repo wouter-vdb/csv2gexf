@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Wouter Van den Broeck",
+    "email": "wouter@addith.be"
+  },
+  "bugs": {},
+  "contributors": [],
+  "dependencies": {
+    "csv": "^0.4.6",
+    "gexf": "^0.2.5"
+  },
+  "description": "Converts graph-data in two CSV documents in a GEXF document.",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsdoc": "^1.1.0",
+    "jsdoc": "^3.4.0"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=5.6.0"
+  },
+  "keywords": [
+    "gephi",
+    "csv",
+    "graph"
+  ],
+  "licenses": "MIT",
+  "main": ".index.js",
+  "maintainers": [
+    {
+      "name": "Wouter Van den Broeck",
+      "email": "wouter@addith.be"
+    }
+  ],
+  "name": "csv2gexf",
+  "private": true,
+  "repository": {},
+  "scripts": {
+    "install": "jsdoc index.js"
+  },
+  "version": "0.0.1"
+}

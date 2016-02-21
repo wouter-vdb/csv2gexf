@@ -1,0 +1,5 @@
+.idea
+doc
+node_modules
+example/data.numbers
+example/result.gexf

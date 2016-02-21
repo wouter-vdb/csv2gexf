@@ -1,0 +1,17 @@
+{
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "systemName"      : "csv2gexf",
+    "footer"          : "",
+    "copyright"       : "Copyright © 2014",
+    "navType"         : "vertical",
+    "theme"           : "oblivion",
+    "linenums"        : false,
+    "collapseSymbols" : false,
+    "inverseNav"      : true
+  }
+}
