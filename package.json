@@ -42,5 +42,5 @@
     "docs": "jsdoc2md lib/*.js --template readme.hbs > README.md",
     "example": "cd example && node start.js"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
