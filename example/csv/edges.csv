@@ -1,4 +1,4 @@
-node_1,node_2,alpha,beta
+source,target,alpha,beta
 k1,k2,a1,101
 k4,k5,a2,102
 k1,k5,a3,103
